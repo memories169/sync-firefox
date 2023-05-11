@@ -1,0 +1,49 @@
+:root {
+  --nav-width: 40px;
+  --fav-horiz-margin: 13px;
+  --fav-width: 16px;
+  --close-width: 31px;
+
+  --min-tab-offset: calc(var(--nav-width)
+                        + var(--fav-horiz-margin)
+                        + var(--fav-width));
+  --min-margin-correction: calc(100vw
+                                - var(--min-tab-offset)
+                                - 100%);
+}
+
+div.NavigationBar {
+  width: var(--nav-width);
+}
+
+div.panel-btn {
+  width: var(--nav-width) !important;
+  height: var(--nav-width) !important;
+}
+
+.Tab .t-box {
+  min-width: fit-content;
+}
+
+.Tab .t-box .title {
+  transition: all 1.5s ease;
+  display: inline-block;
+}
+
+.Tab:hover .title {
+  margin-left: min(var(--min-margin-correction) , 0px);
+}
+
+.Tab[data-lvl="1"]:hover .title {
+  --margin-correction: calc(var(--min-margin-correction)
+                            - var(--tabs-indent));
+
+  margin-left: min(var(--margin-correction) , 0px);
+}
+
+.Tab[data-lvl="2"]:hover .title {
+  --margin-correction: calc(var(--min-margin-correction)
+                            - (var(--tabs-indent) * 2));
+
+  margin-left: min(var(--margin-correction) , 0px);
+}
