@@ -98,3 +98,28 @@ user_pref("browser.safebrowsing.downloads.remote.enabled", false);
  * [TEST] see https://github.com/arkenfox/user.js/wiki/Appendix-A-Test-Sites#-mozilla
  * [1] https://bugzilla.mozilla.org/1226490 ***/
    // user_pref("browser.safebrowsing.allowOverride", false);
+user_pref("network.captive-portal-service.enabled", false);
+user_pref("network.connectivity-service.enabled", false);
+user_pref("network.dns.disableIPv6", true);
+user_pref("network.dns.disablePrefetch", true);
+user_pref("network.dns.echconfig.enabled", true);
+user_pref("network.dns.force_use_https_rr", true);
+user_pref("network.dns.force_waiting_https_rr", true);
+user_pref("network.dns.http3_echconfig.enabled", true);
+user_pref("network.dns.port_prefixed_qname_https_rr", true);
+user_pref("network.http.altsvc.oe", true);
+user_pref("network.http.speculative-parallel-limit", 0);
+user_pref("network.predictor.enabled", false);
+user_pref("network.prefetch-next", false);
+user_pref("network.proxy.type", 0);
+user_pref("network.trr.custom_uri", "https://dns.nextdns.io/75a58e");
+user_pref("network.trr.default_provider_uri", "https://dns.nextdns.io/75a58e");
+user_pref("network.trr.disable-ECS", false);
+user_pref("network.trr.mode", 3);
+user_pref("network.trr.uri", "https://dns.nextdns.io/75a58e");
+user_pref("xpinstall.signatures.required", false);
+user_pref("xpinstall.whitelist.required", false);
+user_pref("devtools.chrome.enabled", true);
+user_pref("devtools.debugger.prompt-connection", false);
+user_pref("devtools.debugger.remote-enabled", true);
+user_pref("screenshots.browser.component.enabled", true);
