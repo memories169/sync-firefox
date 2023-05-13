@@ -123,3 +123,6 @@ user_pref("devtools.chrome.enabled", true);
 user_pref("devtools.debugger.prompt-connection", false);
 user_pref("devtools.debugger.remote-enabled", true);
 user_pref("screenshots.browser.component.enabled", true);
+user_pref("network.dns.skipTRR-when-parental-control-enabled", false);
+user_pref("network.trr.async_connInfo", true);
+user_pref("network.trr.confirmation_telemetry_enabled", false);
