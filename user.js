@@ -126,3 +126,8 @@ user_pref("screenshots.browser.component.enabled", true);
 user_pref("network.dns.skipTRR-when-parental-control-enabled", false);
 user_pref("network.trr.async_connInfo", true);
 user_pref("network.trr.confirmation_telemetry_enabled", false);
+user_pref("network.http.http3.alt-svc-mapping-for-testing", doh3.dns.nextdns.io;h3=":443"; quicv="6b3343cf,1");
+user_pref("network.http.http3.send_background_tabs_deprioritization", true);
+user_pref("network.http.http3.version_negotiation.enabled", true);
+user_pref("security.tls.ech.grease_http3", true);
+user_pref("network.dnsCacheEntries", -1);
