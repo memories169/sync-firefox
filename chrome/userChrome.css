@@ -11,6 +11,7 @@
 @import url(hacks/menuShow.css); 
 @import url(hacks/darkContextMenu.css);
 @import url(hacks/hideAddonMessage.css);
+@Import url(hacks/titleSlide.css);
 :root { 
 --tabs-border-color: transparent !important; 
 }
