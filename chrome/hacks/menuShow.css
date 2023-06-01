@@ -39,3 +39,6 @@
 
 	#file-menu > .menubar-text{ visibility: collapse }
 	menubar:hover > #file-menu > .menubar-text{ visibility: visible }
+	#titlebar{
+		display: none!important;
+	}
