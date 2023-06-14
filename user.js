@@ -100,6 +100,7 @@ user_pref("browser.safebrowsing.downloads.remote.enabled", false);
    // user_pref("browser.safebrowsing.allowOverride", false);
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 user_pref("layout.css.has-selector.enabled", true);
+user_pref("network.IDN_show_punycode", true);
 user_pref("network.captive-portal-service.enabled", false);
 user_pref("network.connectivity-service.enabled", false);
 user_pref("network.dns.disableIPv6", false);
