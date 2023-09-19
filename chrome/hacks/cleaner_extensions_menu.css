@@ -1,11 +1,11 @@
 /*  Clean and tight extensions menu */
 #unified-extensions-panel #unified-extensions-view {
-    max-width: 230px !important;
+    width: 100% !important; /*  For firefox v115.x */
 }
 
 #unified-extensions-view{
     --uei-icon-size: 22px; /*  Change icon size */
-    --firefoxcss-number-of-extensions-in-a-row: 4; /*  Increase to the number of icons you want in one row */
+    --firefoxcss-number-of-extensions-in-a-row: 3; /*  Increase to the number of icons you want in one row */
 }
 
 #unified-extensions-view .panel-header,
