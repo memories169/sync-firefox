@@ -1,6 +1,6 @@
 :root {
     --autohide-sidebar-extended: 230px; /* width of tab panel shown */
-    --autohide-sidebar-collapsed: 30px; /* width of tab panel hidden */
+    --autohide-sidebar-collapsed: 34px; /* width of tab panel hidden */
     --sidebar-height: 100vh;
 }
 
