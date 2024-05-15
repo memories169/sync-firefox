@@ -103,7 +103,8 @@ user_pref("layout.css.has-selector.enabled", true);
 user_pref("network.IDN_show_punycode", true);
 user_pref("network.captive-portal-service.enabled", false);
 user_pref("network.connectivity-service.enabled", false);
-user_pref("network.dns.disableIPv6", false);
+user_pref("network.dns.native_https_query_win10", true);
+user_pref("network.dns.disableIPv6", true);
 user_pref("network.dns.disablePrefetch", true);
 user_pref("network.dns.echconfig.enabled", true);
 user_pref("network.dns.force_use_https_rr", true);
@@ -125,7 +126,7 @@ user_pref("network.trr.default_provider_uri", "https://doh3.dns.nextdns.io/4fbd5
 user_pref("network.trr.disable-ECS", false);
 user_pref("network.trr.mode", 3);
 user_pref("network.trr.uri", "https://doh3.dns.nextdns.io/4fbd58");
-user_pref("network.http.http3.alt-svc-mapping-for-testing", "doh3.dns.nextdns.io;h3=\":443\";quicv=\"6b3343cf,1\",cdn.medium.com;h3=\":443\";quicv=\"6b3343cf,1\",pastebin.com;h3=\":443\";quicv=\"6b3343cf,1\",rsload.net;h3=\":443\";quicv=\"6b3343cf,1\",cuutruyen.net;h3=\":443\";quicv=\"6b3343cf,1\",dns.google;h3=\":443\";quicv=\"6b3343cf,1\",www.youtube.com;h3=\":443\";quicv=\"6b3343cf,1\",www.google.com;h3=\":443\";h3-29=\":443\";quicv=\"6b3343cf,1\",translate.google.com;h3=\":443\";h3-29=\":443\";quicv=\"6b3343cf,1\",mail.google.com;h3=\":443\";quicv=\"6b3343cf,1\",googleusercontent.com;h3=\":443\";quicv=\"6b3343cf,1\",fonts.googleapis.com;h3=\":443\";quicv=\"6b3343cf,1\",fonts.gstatic.com;h3=\":443\";quicv=\"6b3343cf,1\",www.google.com;h3=\":443\";quicv=\"6b3343cf,1\",ssl.gstatic.com;h3=\":443\";quicv=\"6b3343cf,1\",ogs.google.com;h3=\":443\";quicv=\"6b3343cf,1\",voz.vn;h3=\":443\";quicv=\"6b3343cf,1\",statics.voz.tech;h3=\":443\";quicv=\"6b3343cf,1\",www.facebook.com;h3=\":443\";quicv=\"6b3343cf,1\",fbcdn.net;h3=\":443\";quicv=\"6b3343cf,1\",connect.facebook.net;h3=\":443\";quicv=\"6b3343cf,1\",www.messenger.com;h3=\":443\";quicv=\"6b3343cf,1\",twitter.com;h3=\":443\";quicv=\"6b3343cf,1\",www.instagram.com;h3=\":443\";quicv=\"6b3343cf,1\",i.imgur.com;h3=\":443\";quicv=\"6b3343cf,1\",embed.reddit.com;h3=\":443\";quicv=\"6b3343cf,1\",reddit.com;h3=\":443\";quicv=\"6b3343cf,1\",secure.gravatar.com;h3=\":443\";quicv=\"6b3343cf,1\",web.telegram.org;h3=\":443\";quicv=\"6b3343cf,1\",www.nettruyenvi.com;h3=\":443\";quicv=\"6b3343cf,1\"");
+user_pref("network.http.http3.alt-svc-mapping-for-testing", "doh3.dns.nextdns.io;h3=\":443\";quicv=\"6b3343cf,1\",dns.nextdns.io;h3=\":443\";quicv=\"6b3343cf,1\"");
 user_pref("xpinstall.signatures.required", false);
 user_pref("xpinstall.whitelist.required", false);
 user_pref("extensions.experiments.enabled", true);
@@ -135,7 +136,7 @@ user_pref("devtools.debugger.remote-enabled", true);
 user_pref("screenshots.browser.component.enabled", true);
 user_pref("network.dns.skipTRR-when-parental-control-enabled", false);
 user_pref("network.trr.async_connInfo", true);
-user_pref("network.trr.bootstrapAddress", "8.8.8.8")
+user_pref("network.trr.bootstrapAddress", "8.8.8.8");
 user_pref("network.trr.confirmation_telemetry_enabled", false);
 user_pref("network.http.http3.send_background_tabs_deprioritization", true);
 user_pref("network.http.http3.version_negotiation.enabled", true);
@@ -163,6 +164,7 @@ user_pref("general.smoothScroll.mouseWheel.durationMinMS", 200);
 user_pref("mousewheel.enable_pixel_scrolling", false);
 user_pref("cookiebanners.service.mode", 2);
 user_pref("cookiebanners.service.mode.privateBrowsing", 2);
+user_pref("security.tls.enable_kyber", true);
 /*
 user_pref("network.trr.use_ohttp", true);
 user_pref("network.trr.ohttp.configs_uri", "https://dooh.cloudflare-dns.com/.well-known/doohconfig");
