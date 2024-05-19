@@ -165,6 +165,9 @@ user_pref("mousewheel.enable_pixel_scrolling", false);
 user_pref("cookiebanners.service.mode", 2);
 user_pref("cookiebanners.service.mode.privateBrowsing", 2);
 user_pref("security.tls.enable_kyber", true);
+user_pref("ui.useOverlayScrollbars", 1);
+user_pref("widget.non-native-theme.scrollbar.style", 5);
+user_pref("widget.non-native-theme.win11.scrollbar.force-overlay-style", true);
 /*
 user_pref("network.trr.use_ohttp", true);
 user_pref("network.trr.ohttp.configs_uri", "https://dooh.cloudflare-dns.com/.well-known/doohconfig");
