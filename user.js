@@ -103,7 +103,7 @@ user_pref("layout.css.has-selector.enabled", true);
 user_pref("network.IDN_show_punycode", true);
 user_pref("network.captive-portal-service.enabled", false);
 user_pref("network.connectivity-service.enabled", false);
-user_pref("network.dns.native_https_query_win10", true);
+user_pref("network.dns.native_https_query_win10", false);
 user_pref("network.dns.disableIPv6", true);
 user_pref("network.dns.disablePrefetch", true);
 user_pref("network.dns.echconfig.enabled", true);
@@ -168,6 +168,7 @@ user_pref("security.tls.enable_kyber", true);
 user_pref("ui.useOverlayScrollbars", 1);
 user_pref("widget.non-native-theme.scrollbar.style", 5);
 user_pref("widget.non-native-theme.win11.scrollbar.force-overlay-style", true);
+user_pref("dom.textMetrics.fontBoundingBox.enabled", true);
 /*
 user_pref("network.trr.use_ohttp", true);
 user_pref("network.trr.ohttp.configs_uri", "https://dooh.cloudflare-dns.com/.well-known/doohconfig");
