@@ -1,0 +1,5 @@
+restarter:
+ image: docker:cli
+    volumes: ["/var/run/docker.sock:/var/run/docker.sock"]
+    command: ["/bin/sh", "-c", "while true; do sleep 14400; docker restart usque; done"]
+    restart: unless-stopped
